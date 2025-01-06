@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hyukanodes Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+            margin: 0;
+            padding: 0;
+            color: #333;
+            background: #f9f9f9;
+            line-height: 1.6;
+        }
+        header {
+            background: #007bff;
+            color: white;
+            padding: 1rem 0;
+            text-align: center;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2.5rem;
+        }
+        nav a {
+            color: white;
+            margin: 0 10px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        .container {
+            width: 90%;
+            max-width: 1200px;
+            margin: 3rem auto;
+        }
+        .section {
+            margin-bottom: 4rem;
+            text-align: center;
+        }
+        .card {
+            background: white;
+            padding: 2rem;
+            border-radius: 10px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+            margin-bottom: 2rem;
+            transition: transform 0.3s ease-in-out;
+        }
+        .card:hover {
+            transform: translateY(-5px);
+        }
+        footer {
+            text-align: center;
+            padding: 1rem;
+            background: #007bff;
+            color: white;
+        }
+        figure {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+        }
+        figure img {
+            max-width: 100%;
+            border-radius: 10px;
+        }
+        figcaption {
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Hyukanodes Portfolio</h1>
+        <nav>
+            <a href="#about">About</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <div class="container">
+        <section id="about" class="section">
+            <h2>About Me</h2>
+            <div class="card">
+                <p>My name is Dedews, and I am the founder of Hyukanode. HyukaNode is the name of my project whenever I participate in a testnet project, blockchain validator, and node operations. I am very passionate about the world of web3 and blockchain. I have explored many types of nodes and studied them one by one. Currently, I am busy helping new projects with testing their testnets and running validators and nodes when the mainnet launches.</p>
+            </div>
+        </section>
+
+        <section id="projects" class="section">
+            <h2>Projects</h2>
+            <div class="card">
+                <h3>Blockchain Projects</h3>
+                <p>I have worked on several projects such as Sei, SUI, RedBelly, Muon, Stride, Rainbow Protocol, and many others. I have experience in setting up validator nodes and community development.</p>
+            </div>
+            <div class="card">
+                <h3>Articles and Tutorials</h3>
+                <p>I create tutorials for DeFi projects and testnets, such as how to use blockchain wallets or create tokens on specific networks.</p>
+            </div>
+        </section>
+
+        <section id="contact" class="section">
+            <h2>Contact</h2>
+            <div class="card">
+                <p>Contact me via email: <a href="mailto:contact@hyukanode.my.id">contact@hyukanode.my.id</a></p>
+                <p>Follow me on social media: <a href="https://twitter.com/dedewahyu_land">Twitter</a></p>
+            </div>
+        </section>
+
+        <figure class="sqs-block-image-figure">
+            <div class="intrinsic">
+                <div class="image-inset">
+                    <img src="https://images.squarespace-cdn.com/content/v1/5c1bad2af8370a9e5f240ce6/678a7bec-370a-4f17-aa16-29e4dc8c1aa3/Kristareynoldsphotography-18.jpg" alt="Professional Copywriter" style="max-width: 100%; border-radius: 10px;">
+                    <figcaption>
+                        <strong>Expert Copywriter for Personal Finance Brands</strong>
+                        <p>Are you ready to help <em>your people</em> gain control of their finances? Me too.</p>
+                    </figcaption>
+                </div>
+            </div>
+        </figure>
+    </div>
+
+    <footer>
+        <p>&copy; 2025 Hyukanodes. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
